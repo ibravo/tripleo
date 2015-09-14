@@ -1,0 +1,7 @@
+[rdo-centos]
+name=rdo-centos
+#baseurl=http://mirror.metrocast.net/centos/7/cloud/x86_64/openstack-kilo
+baseurl=http://cbs.centos.org/repos/cloud7-openstack-common-testing/x86_64/os
+enabled=1
+gpgcheck=0
+priority=50
