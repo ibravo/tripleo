@@ -10,6 +10,7 @@
 #REM so as long as you are not using bleeding edge (which is going to be unstable) the built images will work great
 
 #REM https://repos.fedorapeople.org/repos/openstack-m/rdo-images-centos-liberty/
+cd /home/stack/images
 sudo yum install -y wget
 wget https://repos.fedorapeople.org/repos/openstack-m/rdo-images-centos-liberty/deploy-ramdisk-ironic.initramfs
 wget https://repos.fedorapeople.org/repos/openstack-m/rdo-images-centos-liberty/deploy-ramdisk-ironic.kernel 
