@@ -1,0 +1,7 @@
+[delorean]
+name=delorean-python-django-horizon-749e436c6383e28be6c1da1e9514940f30304957
+baseurl=http://trunk.rdoproject.org/centos7/74/9e/749e436c6383e28be6c1da1e9514940f30304957_7c31f715
+enabled=1
+gpgcheck=0
+priority=1
+
