@@ -9,7 +9,7 @@ mkdir -p /home/stack/templates
 sh /home/stack/tripleo/bkp.scripts/3_get_images.sh
 
 #Get undercloud configuration
-cp /home/stack/tripleo/undercloud.conf /home/stack/undercloud.conf
+cp /home/stack/tripleo/files/undercloud.conf /home/stack/undercloud.conf
 
 echo Now start the install
 sudo yum install -y http://rdoproject.org/repos/openstack-liberty/rdo-release-liberty.rpm
