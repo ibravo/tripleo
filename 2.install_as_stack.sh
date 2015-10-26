@@ -1,11 +1,15 @@
 echo git clone https://github.com/ibravo/tripleo
 #Stack User
 
-#Clone git repository
+#Configure directories
 mkdir -p /home/stack/images
 mkdir -p /home/stack/templates
 
+#Download images
 sh /home/stack/tripleo/bkp.scripts/3_get_images.sh
+
+#Get undercloud configuration
+cp /home/stack/tripleo/undercloud.conf /home/stack/undercloud.conf
 
 echo Now start the install
 sudo yum install -y http://rdoproject.org/repos/openstack-liberty/rdo-release-liberty.rpm
