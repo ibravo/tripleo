@@ -1,0 +1,1 @@
+openstack overcloud deploy --templates --control-scale 3 --compute-scale 1 --ceph-storage-scale 1 -e /usr/share/openstack-tripleo-heat-templates/environments/storage-environments.yaml -e /usr/share/openstack-tripleo-heat-templates/environments/puppet-pacemaker.yaml --ntp-server pool.ntp.org --neutron-network-type vxlan --neutron-tunnel-types vxlan --timeout 90
