@@ -26,18 +26,18 @@ cd /home/stack
 # Controllers
 echo Controllers
 openstack baremetal import --json /home/stack/tripleo/files/instack.control.4-6.json
-openstack baremetal configure boot
-openstack baremetal introspection bulk start
+#openstack baremetal configure boot
+#openstack baremetal introspection bulk start
 openstack flavor create --id auto --ram 4096 --disk 40 --vcpus 8 controller
-openstack flavor set --property "cpu_arch"="x86_64" --property "capabilities:boot_option"="local" controller
+openstack flavor set --property "cpu_arch"="x86_64" --property "capabilities:boot_option"="local" --property "capabilities:profile"="controller" controller
 
 # Ceph
 echo Ceph
 openstack baremetal import --json /home/stack/tripleo/files/instack.ceph.7-9.json
-openstack baremetal configure boot
-openstack baremetal introspection bulk start
+#openstack baremetal configure boot
+#openstack baremetal introspection bulk start
 openstack flavor create --id auto --ram 4096 --disk 400 --vcpus 8 ceph
-openstack flavor set --property "cpu_arch"="x86_64" --property "capabilities:boot_option"="local" ceph
+openstack flavor set --property "cpu_arch"="x86_64" --property "capabilities:boot_option"="local" --property "capabilities:profile"="ceph" ceph
 
 # Compute
 echo Compute
@@ -45,5 +45,6 @@ openstack baremetal import --json /home/stack/tripleo/files/instack.compute.2-3-
 openstack baremetal configure boot
 openstack baremetal introspection bulk start
 openstack flavor create --id auto --ram 16384 --disk 40 --vcpus 24 compute
-openstack flavor set --property "cpu_arch"="x86_64" --property "capabilities:boot_option"="local" compute
+openstack flavor set --property "cpu_arch"="x86_64" --property "capabilities:boot_option"="local" --property "capabilities:profile"="compute" compute
+
 
