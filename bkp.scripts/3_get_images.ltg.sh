@@ -11,14 +11,14 @@
 
 #REM https://repos.fedorapeople.org/repos/openstack-m/rdo-images-centos-liberty/
 cd /home/stack/images
-wget https://katello.hq.ltg/pulp/repos/rdo-manager/deploy-ramdisk-ironic.initramfs
-wget https://katello.hq.ltg/deploy-ramdisk-ironic.kernel 
-wget https://katello.hq.ltg/deploy-ramdisk-ironic.tar
-wget https://katello.hq.ltg/ironic-python-agent.initramfs
-wget https://katello.hq.ltg/ironic-python-agent.kernel
-wget https://katello.hq.ltg/ironic-python-agent.tar
-wget https://katello.hq.ltg/ironic-python-agent.vmlinuz
-wget https://katello.hq.ltg/overcloud-full.initrd
-wget https://katello.hq.ltg/overcloud-full.qcow2
-wget https://katello.hq.ltg/overcloud-full.tar
-wget https://katello.hq.ltg/overcloud-full.vmlinuz
+wget https://katello.hq.ltg/pulp/repos/rdo-manager/deploy-ramdisk-ironic.initramfs --no-check-certificate
+wget https://katello.hq.ltg/deploy-ramdisk-ironic.kernel --no-check-certificate
+wget https://katello.hq.ltg/deploy-ramdisk-ironic.tar --no-check-certificate
+wget https://katello.hq.ltg/ironic-python-agent.initramfs --no-check-certificate
+wget https://katello.hq.ltg/ironic-python-agent.kernel --no-check-certificate
+wget https://katello.hq.ltg/ironic-python-agent.tar --no-check-certificate
+wget https://katello.hq.ltg/ironic-python-agent.vmlinuz --no-check-certificate
+wget https://katello.hq.ltg/overcloud-full.initrd --no-check-certificate
+wget https://katello.hq.ltg/overcloud-full.qcow2 --no-check-certificate
+wget https://katello.hq.ltg/overcloud-full.tar --no-check-certificate
+wget https://katello.hq.ltg/overcloud-full.vmlinuz --no-check-certificate
