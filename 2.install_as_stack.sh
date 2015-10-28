@@ -6,7 +6,7 @@ mkdir -p /home/stack/images
 mkdir -p /home/stack/templates
 
 #Download images
-sh /home/stack/tripleo/bkp.scripts/3_get_images.sh
+sh /home/stack/tripleo/bkp.scripts/3_get_images.ltg.sh
 
 #Get undercloud configuration
 cp /home/stack/tripleo/files/undercloud.conf /home/stack/undercloud.conf
