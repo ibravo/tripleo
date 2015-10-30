@@ -30,27 +30,27 @@ parameters:
     description: IP address/subnet on the tenant network
     type: string
   ExternalNetworkVlanID:
-    default: 10
+    default: 50
     description: Vlan ID for the external network traffic.
     type: number
   InternalApiNetworkVlanID:
-    default: 20
+    default: 10
     description: Vlan ID for the internal_api network traffic.
     type: number
   StorageNetworkVlanID:
-    default: 30
+    default: 20
     description: Vlan ID for the storage network traffic.
     type: number
   StorageMgmtNetworkVlanID:
-    default: 40
+    default: 30
     description: Vlan ID for the storage mgmt network traffic.
     type: number
   TenantNetworkVlanID:
-    default: 50
+    default: 40
     description: Vlan ID for the tenant network traffic.
     type: number
   ExternalInterfaceDefaultRoute:
-    default: '10.0.0.1'
+    default: '192.168.3.1'
     description: default route for the external network
     type: string
   ControlPlaneSubnetCidr: # Override this via parameter_defaults
