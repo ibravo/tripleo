@@ -47,4 +47,7 @@ openstack baremetal introspection bulk start
 openstack flavor create --id auto --ram 16384 --disk 40 --vcpus 24 compute
 openstack flavor set --property "cpu_arch"="x86_64" --property "capabilities:boot_option"="local" --property "capabilities:profile"="compute" compute
 
+echo Add the profiles to the nodes
+echo eronic node-update <UUID> replace porperties/capabilities='profile:control,boot_option:local'
+echo Do the same for compute and ceph
 
