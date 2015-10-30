@@ -30,11 +30,11 @@ parameters:
     description: IP address/subnet on the tenant network
     type: string
   StorageNetworkVlanID:
-    default: 30
+    default: 20
     description: Vlan ID for the storage network traffic.
     type: number
   StorageMgmtNetworkVlanID:
-    default: 40
+    default: 30
     description: Vlan ID for the storage mgmt network traffic.
     type: number
   ControlPlaneSubnetCidr: # Override this via parameter_defaults
