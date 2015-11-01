@@ -10,7 +10,7 @@
             "disk":"40",
             "arch":"x86_64",
             "pm_user":"Administrator",
-            "pm_password":"L3gfederal",
+            "pm_password":"password",
             "pm_addr":"192.168.3.12"
         },
         {
@@ -23,7 +23,7 @@
             "disk":"40",
             "arch":"x86_64",
             "pm_user":"Administrator",
-            "pm_password":"L3gfederal",
+            "pm_password":"password",
             "pm_addr":"192.168.3.13"
         },
         {
@@ -36,7 +36,7 @@
             "disk":"40",
             "arch":"x86_64",
             "pm_user":"Administrator",
-            "pm_password":"L3gfederal",
+            "pm_password":"password",
             "pm_addr":"192.168.3.21"
         }
     ]
