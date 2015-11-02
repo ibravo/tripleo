@@ -10,7 +10,7 @@
             "disk":"40",
             "arch":"x86_64",
             "pm_user":"Administrator",
-            "pm_password":"L3gfederal",
+            "pm_password":"password",
             "pm_addr":"192.168.3.11"
         },
         {
@@ -23,7 +23,7 @@
             "disk":"40",
             "arch":"x86_64",
             "pm_user":"Administrator",
-            "pm_password":"L3gfederal",
+            "pm_password":"password",
             "pm_addr":"192.168.3.12"
         },
         {
@@ -36,7 +36,7 @@
             "disk":"40",
             "arch":"x86_64",
             "pm_user":"Administrator",
-            "pm_password":"L3gfederal",
+            "pm_password":"password",
             "pm_addr":"192.168.3.13"
         },
         {
@@ -49,7 +49,7 @@
             "disk":"40",
             "arch":"x86_64",
             "pm_user":"Administrator",
-            "pm_password":"L3gfederal",
+            "pm_password":"password",
             "pm_addr":"192.168.3.14"
         },
         {
@@ -62,7 +62,7 @@
             "disk":"40",
             "arch":"x86_64",
             "pm_user":"Administrator",
-            "pm_password":"L3gfederal",
+            "pm_password":"password",
             "pm_addr":"192.168.3.15"
         },
         {
@@ -75,7 +75,7 @@
             "disk":"40",
             "arch":"x86_64",
             "pm_user":"Administrator",
-            "pm_password":"L3gfederal",
+            "pm_password":"password",
             "pm_addr":"192.168.3.16"
         },
         {
@@ -88,7 +88,7 @@
             "disk":"40",
             "arch":"x86_64",
             "pm_user":"Administrator",
-            "pm_password":"L3gfederal",
+            "pm_password":"password",
             "pm_addr":"192.168.3.17"
         },
         {
@@ -101,7 +101,7 @@
             "disk":"40",
             "arch":"x86_64",
             "pm_user":"Administrator",
-            "pm_password":"L3gfederal",
+            "pm_password":"password",
             "pm_addr":"192.168.3.18"
         },
         {
@@ -114,7 +114,7 @@
             "disk":"40",
             "arch":"x86_64",
             "pm_user":"Administrator",
-            "pm_password":"L3gfederal",
+            "pm_password":"password",
             "pm_addr":"192.168.3.19"
         },
         {
@@ -127,7 +127,7 @@
             "disk":"40",
             "arch":"x86_64",
             "pm_user":"Administrator",
-            "pm_password":"L3gfederal",
+            "pm_password":"password",
             "pm_addr":"192.168.3.20"
         },
         {
@@ -140,7 +140,7 @@
             "disk":"40",
             "arch":"x86_64",
             "pm_user":"Administrator",
-            "pm_password":"L3gfederal",
+            "pm_password":"password",
             "pm_addr":"192.168.3.21"
         },
         {
@@ -153,7 +153,7 @@
             "disk":"40",
             "arch":"x86_64",
             "pm_user":"Administrator",
-            "pm_password":"L3gfederal",
+            "pm_password":"password",
             "pm_addr":"192.168.3.22"
         },
         {
@@ -166,7 +166,7 @@
             "disk":"40",
             "arch":"x86_64",
             "pm_user":"Administrator",
-            "pm_password":"L3gfederal",
+            "pm_password":"password",
             "pm_addr":"192.168.3.23"
         },
         {
@@ -179,7 +179,7 @@
             "disk":"40",
             "arch":"x86_64",
             "pm_user":"Administrator",
-            "pm_password":"L3gfederal",
+            "pm_password":"password",
             "pm_addr":"192.168.3.24"
         },
         {
@@ -192,7 +192,7 @@
             "disk":"40",
             "arch":"x86_64",
             "pm_user":"Administrator",
-            "pm_password":"L3gfederal",
+            "pm_password":"password",
             "pm_addr":"192.168.3.25"
         }
     ]
