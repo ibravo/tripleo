@@ -80,21 +80,6 @@ resources:
               dns_servers: {get_param: DnsServers}
               addresses:
                 -
-                  ip_netmask: {get_para: ExternalIpSubnet}
-              routes:
-                -
-                  ip_netmask: 0.0.0.0/0
-                  next_hop: {get_param: ExternalInterfaceDefaultRoute}
-              members:
-                -
-                  type: interface
-                  name: nic2
-            -
-              type: ovs_bridge
-              name: br-ctlplane
-              use_dhcp: false
-              addresses:
-                -
                   ip_netmask:
                     list_join:
                       - '/'
@@ -110,6 +95,16 @@ resources:
                   name: nic1
                   # force the MAC address of the bridge to this interface
                   primary: true
+                -
+                  type: vlan
+                  vlan_id: {get_param: ExternalNetworkVlanID}
+                  addresses:
+                  -
+                    ip_netmask: {get_param: ExternalIpSubnet}
+                  routes:
+                    -
+                      ip_netmask: 0.0.0.0/0
+                      next_hop: {get_param: ExternalInterfaceDefaultRoute}
                 -
                   type: vlan
                   vlan_id: {get_param: InternalApiNetworkVlanID}
