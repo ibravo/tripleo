@@ -11,7 +11,7 @@ parameter_defaults:
   StorageNetCidr: 10.20.20.0/24
   StorageMgmtNetCidr: 10.30.30.0/24
   TenantNetCidr: 10.40.40.0/24
-  ExternalNetCidr: 10.50.50.0/24
+  ExternalNetCidr: 192.168.3.0/24
   # CIDR subnet mask length for provisioning network
   ControlPlaneSubnetCidr: "24"
   InternalApiAllocationPools: [{'start': '10.10.10.10', 'end': '10.10.10.200'}]
@@ -19,9 +19,9 @@ parameter_defaults:
   StorageMgmtAllocationPools: [{'start': '10.30.30.10', 'end': '10.30.30.200'}]
   TenantAllocationPools: [{'start': '10.40.40.10', 'end': '10.40.40.200'}]
   # Use an External allocation pool which will leave room for floating IPs
-  ExternalAllocationPools: [{'start': '10.50.50.10', 'end': '10.50.50.200'}]
+  ExternalAllocationPools: [{'start': '192.168.3.70', 'end': '192.168.3.90'}]
   # Set to the router gateway on the external network
-  ExternalInterfaceDefaultRoute: 10.50.50.1
+  ExternalInterfaceDefaultRoute: 192.168.3.1
   # Gateway router for the provisioning network (or Undercloud IP)
   ControlPlaneDefaultRoute: 192.0.2.1
   # Generally the IP of the Undercloud
