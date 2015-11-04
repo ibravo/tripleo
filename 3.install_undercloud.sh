@@ -26,28 +26,35 @@ cd /home/stack
 # Controllers
 echo Controllers
 openstack baremetal import --json /home/stack/tripleo/files/instack.control.4-6.json
-#openstack baremetal configure boot
-#openstack baremetal introspection bulk start
 openstack flavor create --id auto --ram 4096 --disk 40 --vcpus 8 controller
 openstack flavor set --property "cpu_arch"="x86_64" --property "capabilities:boot_option"="local" --property "capabilities:profile"="controller" controller
 
 # Ceph
 echo Ceph
 openstack baremetal import --json /home/stack/tripleo/files/instack.ceph.7-9.json
-#openstack baremetal configure boot
-#openstack baremetal introspection bulk start
 openstack flavor create --id auto --ram 4096 --disk 400 --vcpus 8 ceph
 openstack flavor set --property "cpu_arch"="x86_64" --property "capabilities:boot_option"="local" --property "capabilities:profile"="ceph" ceph
 
 # Compute
 echo Compute
 openstack baremetal import --json /home/stack/tripleo/files/instack.compute.2-3-11.json
-openstack baremetal configure boot
-openstack baremetal introspection bulk start
 openstack flavor create --id auto --ram 16384 --disk 40 --vcpus 24 compute
 openstack flavor set --property "cpu_arch"="x86_64" --property "capabilities:boot_option"="local" --property "capabilities:profile"="compute" compute
 
+# Introspect!
+echo Introspection time
+echo + If this command fails, make sure you only have one NIC per node using 'neutron port-list'
+openstack baremetal configure boot
+openstack baremetal introspection bulk start
+
 echo Add the profiles to the nodes
-echo eronic node-update <UUID> replace porperties/capabilities='profile:control,boot_option:local'
-echo Do the same for compute and ceph
+echo ironic node-update <UUID> replace properties/capabilities='profile:controller,boot_option:local'
+echo ironic node-update <UUID> replace properties/capabilities='profile:ceph,boot_option:local'
+echo ironic node-update <UUID> replace properties/capabilities='profile:compute,boot_option:local'
+echo Repeat each command for each controller/ceph/compute node that you have introspected
+
+echo Deploy the networks
+echo neutron net-create ltg_net --router:external --provider:network_type flat --provider:physical_network datacentre
+echo neutron subnet-create --name ltg_hq --disable-dhcp --allocation-pool start=192.168.3.120,end=192.168.3.190 --gateway 192.168.3.1 ltg_net 192.168.3.0/24
+
 
