@@ -2,7 +2,7 @@
 sudo curl -o /etc/yum.repos.d/delorean.repo http://trunk.rdoproject.org/centos7/current-passed-ci/delorean.repo
 sudo curl -o /etc/yum.repos.d/delorean-deps.repo http://trunk.rdoproject.org/centos7/delorean-deps.repo
 
-yum install -y yum-plugin-priorities
+sudo yum install -y yum-plugin-priorities
 
 # Install Ceph key and repo from download.ceph.com
 
