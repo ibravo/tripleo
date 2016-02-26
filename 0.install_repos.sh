@@ -17,5 +17,8 @@ enabled=1
 gpgcheck=0
 EOF
 
+sudo yum -y install epel-release
+sudo yum -y install yum-plugin-priorities
+sudo yum update -y
 
-yum update -y
+#sudo yum install -y python-tripleoclient
