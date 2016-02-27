@@ -2,7 +2,7 @@ heat_template_version: 2015-04-30
 
 description: >
   Software Config to drive os-net-config to configure VLANs for the
-  cinder storage role.
+  swift storage role.
 
 parameters:
   ControlPlaneIp:
@@ -28,10 +28,6 @@ parameters:
   TenantIpSubnet:
     default: ''
     description: IP address/subnet on the tenant network
-    type: string
-  ManagementIpSubnet: # Only populated when including environments/network-management.yaml
-    default: ''
-    description: IP address/subnet on the management network
     type: string
   InternalApiNetworkVlanID:
     default: 10
