@@ -15,7 +15,8 @@ sh /home/stack/tripleo/bkp.scripts/3_get_images.ltg.sh
 
 
 #Get undercloud configuration
-cp /home/stack/tripleo/files/undercloud.conf /home/stack/undercloud.conf
+#cp /home/stack/tripleo/files/undercloud.conf /home/stack/undercloud.conf
+cp /usr/share/instack-undercloud/undercloud.conf.sample ~/undercloud.conf
 
 # Install TripleO packages
 echo Install TripleO packages
