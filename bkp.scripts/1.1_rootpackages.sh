@@ -15,8 +15,8 @@ rpm --import 'https://download.ceph.com/keys/release.asc'
 
 cat <<-EOF>>/etc/yum.repos.d/ceph.repo
 [ceph]
-name=Ceph packages from CEPH
-baseurl=http://download.ceph.com/rpm-infernalis/el7/x86_64/
+name=Ceph-Infernalis-CEPH
+baseurl=http://download.ceph.com/rpm-infernalis/el7/x86_64
 failovermethod=priority
 enabled=1
 gpgcheck=0
