@@ -25,7 +25,8 @@ sudo yum install -y python-tripleoclient
 # After finalizing
 echo modify the file /home/stack/undercloud.conf to your liking then, 
 echo when wget is done, restart and install: openstack undercloud install
-echo "if you want to build the images, then execute sh /home/stack/tripleo/bkp.scripts/3_build_images.sh after the undercloud install
+echo "if you want to build the images, then execute sh /home/stack/tripleo/bkp.scripts/3_build_images.sh after the undercloud install"
+
 
 
 
