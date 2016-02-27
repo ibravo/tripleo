@@ -24,5 +24,7 @@ EOF
 
 yum update -y
 
+#Install TripleO packages
+yum install -y python-tripleoclient
 
 

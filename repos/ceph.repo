@@ -1,5 +1,7 @@
-name=Ceph packages from CEPH
-baseurl=http://download.ceph.com/rpm-infernalis/el7/x86_64/
-failovermethod=priority
+[ceph]
+name=Ceph-Infernalis-latest
+baseurl=http://download.ceph.com/rpm-infernalis/el7/x86_64
 enabled=1
+failovermethod=priority
 gpgcheck=0
+

@@ -11,13 +11,14 @@
 
 #REM https://repos.fedorapeople.org/repos/openstack-m/rdo-images-centos-liberty/
 cd /home/stack/images
-wget http://katello.hq.ltg/pulp/repos/TripleO-Feb25/ironic-python-agent.initramfs
-wget http://katello.hq.ltg/pulp/repos/TripleO-Feb25/ironic-python-agent.kernel
-wget http://katello.hq.ltg/pulp/repos/TripleO-Feb25/ironic-python-agent.vmlinuz
-wget http://katello.hq.ltg/pulp/repos/TripleO-Feb25/overcloud-full.vmlinuz
-wget http://katello.hq.ltg/pulp/repos/TripleO-Feb25/overcloud-full.initrd
-wget http://katello.hq.ltg/pulp/repos/TripleO-Feb25/overcloud-full.qcow2
-
-
-
-
+wget http://katello.hq.ltg/pulp/repos/rdo-manager/deploy-ramdisk-ironic.initramfs 
+wget http://katello.hq.ltg/pulp/repos/rdo-manager/deploy-ramdisk-ironic.kernel 
+wget http://katello.hq.ltg/pulp/repos/rdo-manager/deploy-ramdisk-ironic.tar 
+wget http://katello.hq.ltg/pulp/repos/rdo-manager/ironic-python-agent.initramfs 
+wget http://katello.hq.ltg/pulp/repos/rdo-manager/ironic-python-agent.kernel 
+wget http://katello.hq.ltg/pulp/repos/rdo-manager/ironic-python-agent.tar 
+wget http://katello.hq.ltg/pulp/repos/rdo-manager/ironic-python-agent.vmlinuz
+wget http://katello.hq.ltg/pulp/repos/rdo-manager/overcloud-full.initrd 
+wget http://katello.hq.ltg/pulp/repos/rdo-manager/overcloud-full.qcow2
+wget http://katello.hq.ltg/pulp/repos/rdo-manager/overcloud-full.tar 
+wget http://katello.hq.ltg/pulp/repos/rdo-manager/overcloud-full.vmlinuz
