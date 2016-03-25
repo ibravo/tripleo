@@ -5,8 +5,13 @@
 # 2. Get Ceph latest repo
 # 3. Update all
 
-curl -o /etc/yum.repos.d/delorean.repo http://trunk.rdoproject.org/centos7/current-passed-ci/delorean.repo
-curl -o /etc/yum.repos.d/delorean-deps.repo http://trunk.rdoproject.org/centos7/delorean-deps.repo
+# Choose Mitaka or upstream
+curl -o /etc/yum.repos.d/delorean.repo https://trunk.rdoproject.org/centos7-mitaka/current-passed-ci/
+#curl -o /etc/yum.repos.d/delorean.repo https://trunk.rdoproject.org/centos7/current-passed-ci/
+
+# Choose Mitaka or upstream
+curl -o /etc/yum.repos.d/delorean-deps.repo http://trunk.rdoproject.org/centos7-mitaka/delorean-deps.repo
+#curl -o /etc/yum.repos.d/delorean-deps.repo http://trunk.rdoproject.org/centos7/delorean-deps.repo
 
 yum install -y yum-plugin-priorities
 
