@@ -5,6 +5,7 @@
 # 2. Get Ceph latest repo
 # 3. Update all
 
+# Choose repos based on: https://www.redhat.com/archives/rdo-list/2016-March/msg00137.html
 # Choose Mitaka or upstream
 curl -o /etc/yum.repos.d/delorean.repo https://trunk.rdoproject.org/centos7-mitaka/current-passed-ci/
 #curl -o /etc/yum.repos.d/delorean.repo https://trunk.rdoproject.org/centos7/current-passed-ci/
