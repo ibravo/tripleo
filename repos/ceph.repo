@@ -1,6 +1,6 @@
 [ceph]
-name=Ceph-Infernalis-latest
-baseurl=http://download.ceph.com/rpm-infernalis/el7/x86_64
+name=Ceph-Jewel-latest
+baseurl=http://download.ceph.com/rpm-jewel/el7/x86_64
 enabled=1
 failovermethod=priority
 gpgcheck=0
