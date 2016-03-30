@@ -10,6 +10,8 @@
 #REM so as long as you are not using bleeding edge (which is going to be unstable) the built images will work great
 
 #REM https://repos.fedorapeople.org/repos/openstack-m/rdo-images-centos-liberty/
+#REM https://ci.centos.org/artifacts/rdo/images/mitaka/delorean/stable/?C=M;O=A
+
 cd /home/stack/images
 wget https://repos.fedorapeople.org/repos/openstack-m/rdo-images-centos-liberty/deploy-ramdisk-ironic.initramfs
 wget https://repos.fedorapeople.org/repos/openstack-m/rdo-images-centos-liberty/deploy-ramdisk-ironic.kernel 
