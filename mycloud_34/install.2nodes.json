@@ -1,0 +1,33 @@
+{
+    "nodes": [
+        {
+            "pm_type":"pxe_ipmitool",
+            "mac":[
+                "B4:B5:2F:6B:DD:D0"
+            ],
+            "cpu":"12",
+            "memory":"98304",
+            "disk":"140",
+            "arch":"x86_64",
+            "capabilities": "profile:compute,boot_option:local",
+            "pm_user":"Administrator",
+            "pm_password":"L3gfederal",
+            "pm_addr":"192.168.3.11"
+        },
+        {
+            "pm_type":"pxe_ipmitool",
+            "mac":[
+                "B4:B5:2F:5D:2A:A9"
+            ],
+            "cpu":"8",
+            "memory":"16384",
+            "disk":"140",
+            "arch":"x86_64",
+            "capabilities": "profile:controller,boot_option:local",
+            "pm_user":"Administrator",
+            "pm_password":"L3gfederal",
+            "pm_addr":"192.168.3.14"
+        }
+   ]
+}
+
