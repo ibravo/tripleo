@@ -135,7 +135,7 @@
             "memory":"16384",
             "disk":"140",
             "arch":"x86_64",
-            "capabilities": "profile:controller,boot_option:local",
+            "capabilities": "profile:undercloud,boot_option:local",
             "pm_user":"Administrator",
             "pm_password":"L3gfederal",
             "pm_addr":"192.168.3.22"
