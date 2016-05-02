@@ -13,7 +13,7 @@ parameter_defaults:
   TenantNetCidr: 10.40.40.0/24
   ExternalNetCidr: 192.168.3.0/24
   # CIDR subnet mask length for provisioning network
-  ControlPlaneSubnetCidr: "24"
+  ControlPlaneSubnetCidr: 24
   InternalApiAllocationPools: [{'start': '10.10.10.10', 'end': '10.10.10.200'}]
   StorageAllocationPools: [{'start': '10.20.20.10', 'end': '10.20.20.200'}]
   StorageMgmtAllocationPools: [{'start': '10.30.30.10', 'end': '10.30.30.200'}]
@@ -27,7 +27,7 @@ parameter_defaults:
   # Generally the IP of the Undercloud
   EC2MetadataIp: 192.0.2.1
   # Define the DNS servers (maximum 2) for the overcloud nodes
-  DnsServers: ["192.168.2.2","8.8.8.8"]
+  DnsServers: ['192.168.2.2','8.8.8.8']
   InternalApiNetworkVlanID: 10
   StorageNetworkVlanID: 20
   StorageMgmtNetworkVlanID: 30
@@ -39,4 +39,3 @@ parameter_defaults:
   # Customize bonding options if required (ignored if bonds are not used)
 #  BondInterfaceOvsOptions:
 #      "bond_mode=balance-tcp lacp=active other-config:lacp-fallback-ab=true"
-  
