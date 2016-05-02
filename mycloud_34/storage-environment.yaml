@@ -41,7 +41,7 @@ parameters:
 
   ## Whether to deploy Ceph OSDs on the controller nodes. By default
   ## OSDs are deployed on dedicated ceph-storage nodes only.
-  ControllerEnableCephStorage: true
+  # ControllerEnableCephStorage: true
 
   ## When deploying Ceph through the oscplugin CLI, the following
   ## parameters are set automatically by the CLI. When deploying via

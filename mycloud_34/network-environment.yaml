@@ -32,7 +32,8 @@ parameter_defaults:
   StorageNetworkVlanID: 20
   StorageMgmtNetworkVlanID: 30
   TenantNetworkVlanID: 40
-  # ExternalNetworkVlanID: 50
+  # Comment out next message (Apr 29) on Ext Lan 50  
+  ExternalNetworkVlanID: 50
   # May set to br-ex if using floating IPs only on native VLAN on bridge br-ex
   NeutronExternalNetworkBridge: "''"
   # Customize bonding options if required (ignored if bonds are not used)
