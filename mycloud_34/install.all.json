@@ -3,7 +3,7 @@
         {
             "pm_type":"pxe_ipmitool",
             "mac":[
-                "B4:B5:2F:6B:DD:D0"
+                "10:60:4B:A9:B8:78"
             ],
             "cpu":"12",
             "memory":"98304",
@@ -17,7 +17,7 @@
         {
             "pm_type":"pxe_ipmitool",
             "mac":[
-                "B4:B5:2F:6B:57:CE"
+                "10:60:4B:99:7A:58"
             ],
             "cpu":"8",
             "memory":"131072",
@@ -31,7 +31,7 @@
         {
             "pm_type":"pxe_ipmitool",
             "mac":[
-                "B4:B5:2F:5D:2A:A9"
+                "B4:B5:2F:58:30:78"
             ],
             "cpu":"8",
             "memory":"16384",
@@ -45,7 +45,7 @@
         {
             "pm_type":"pxe_ipmitool",
             "mac":[
-                "AC:16:2D:C1:DA:EF"
+                "B4:B5:2F:58:61:A8"
             ],
             "cpu":"8",
             "memory":"16384",
@@ -59,7 +59,7 @@
         {
             "pm_type":"pxe_ipmitool",
             "mac":[
-                "10:60:4B:9E:F1:37"
+                "10:60:4B:A9:9E:70"
             ],
             "cpu":"8",
             "memory":"16384",
@@ -87,7 +87,7 @@
         {
             "pm_type":"pxe_ipmitool",
             "mac":[
-                "98:4B:E1:5E:73:E8"
+                "98:4B:E1:76:A3:F0"
             ],
             "cpu":"12",
             "memory":"16384",
@@ -101,7 +101,7 @@
         {
             "pm_type":"pxe_ipmitool",
             "mac":[
-                "E4:11:5B:D3:4A:F6"
+                "E4:11:5B:DB:58:B0"
             ],
             "cpu":"12",
             "memory":"73728",
@@ -115,7 +115,7 @@
         {
             "pm_type":"pxe_ipmitool",
             "mac":[
-                "98:4B:E1:5D:86:66"
+                "98:4B:E1:6A:9A:50"
             ],
             "cpu":"12",
             "memory":"73728",
@@ -129,7 +129,7 @@
         {
             "pm_type":"pxe_ipmitool",
             "mac":[
-                "98:4B:E1:5E:63:ED"
+                "98:4B:E1:76:A6:F0"
             ],
             "cpu":"12",
             "memory":"98304",
@@ -143,7 +143,7 @@
         {
             "pm_type":"pxe_ipmitool",
             "mac":[
-                "98:4B:E1:5E:E3:4D"
+                "98:4B:E1:76:05:C8"
             ],
             "cpu":"12",
             "memory":"16384",
@@ -157,7 +157,7 @@
         {
             "pm_type":"pxe_ipmitool",
             "mac":[
-                "98:4B:E1:5E:D3:4C"
+                "98:4B:E1:76:F7:E0"
             ],
             "cpu":"12",
             "memory":"77824",
@@ -171,7 +171,7 @@
         {
             "pm_type":"pxe_ipmitool",
             "mac":[
-                "98:4B:E1:5E:F0:EC"
+                "98:4B:E1:71:D5:B0"
             ],
             "cpu":"8",
             "memory":"24576",
@@ -185,7 +185,7 @@
         {
             "pm_type":"pxe_ipmitool",
             "mac":[
-                "98:4B:E1:5E:03:72"
+                "98:4B:E1:76:42:78"
             ],
             "cpu":"12",
             "memory":"98304",
