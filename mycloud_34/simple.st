@@ -1,6 +1,6 @@
 
 openstack overcloud deploy --templates \
---control-scale 3 --control-flavor control \
+--control-scale 3 --control-flavor controller \
 --compute-scale 2 --compute-flavor compute \
 --ceph-storage-scale 3 --ceph-storage-flavor ceph --block-storage-flavor ceph --swift-storage-flavor ceph \
 --libvirt-type kvm \
