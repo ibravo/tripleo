@@ -1,0 +1,7 @@
+parameter_defaults:
+  ControlPlaneSubnetCidr: "24"
+  NeutronExternalNetworkBridge: ""
+  EC2MetadataIp: 192.0.2.1
+  ControlPlaneDefaultRoute: 192.0.2.1
+  DnsServers: [u'8.8.8.8', u'8.8.4.4']
+

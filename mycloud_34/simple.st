@@ -7,7 +7,7 @@ openstack overcloud deploy --templates \
 -e /home/stack/tripleo/mycloud_34/storage-environment.yaml \
 -e /usr/share/openstack-tripleo-heat-templates/environments/puppet-pacemaker.yaml \
 -e /usr/share/openstack-tripleo-heat-templates/environments/network-isolation.yaml \
--e /home/stack/tripleo/mycloud_34/network-environment.yaml \
+-e /home/stack/tripleo/mycloud_34/network-env-trown.yaml \
 --ntp-server pool.ntp.org --neutron-network-type vxlan --neutron-tunnel-types vxlan \
 --timeout 90
 
